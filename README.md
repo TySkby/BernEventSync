@@ -23,7 +23,7 @@ Synchronize events from go.berniesanders.com to a Google Calendar
 
 ## Running the program manually
 1. In your console, navigate to the directory where you installed the repository
-2. Type the following command: `python sync.py` and press <enter>.  This will begin the processs of searching for events from Bernie Sanders' website and inserting them into your Google Calendar.
+2. Run the following command: `python sync.py` to begin the processs of searching for events from Bernie Sanders' website and inserting them into your Google Calendar.
 3. Repeat Step 2 whenever you want to update your calendar with new and updated events!
 
 ## Other uses:
