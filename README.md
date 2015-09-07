@@ -28,3 +28,7 @@ Synchronize events from go.berniesanders.com to a Google Calendar
 
 ## Other uses:
 - If you are maintaining a Google Calendar for a grassroots organization, it may be useful to run `sync.py` as a cron job (every 24 hours) to keep your organization's calendar up-to-date.
+
+## Known issues/caveats:
+- The JSON event data retrieved from go.berniesanders.com contain a non-standard timezone abbreviation (eg. "PDT" for Pacific Daylight-Savings Time) which is incompatible with Google Calendar's requirements that IANA timezone identifiers (eg. "America/Los_Angeles") be used.  Any suggestions or solutions would be most welcome!
+- ??? Open an issue if you find one (or better yet, fork and submit a pull request)
