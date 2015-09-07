@@ -32,3 +32,11 @@ Synchronize events from go.berniesanders.com to a Google Calendar
 ## Known issues/caveats:
 - The JSON event data retrieved from go.berniesanders.com contain a non-standard timezone abbreviation (eg. "PDT" for Pacific Daylight-Savings Time) which is incompatible with Google Calendar's requirements that IANA timezone identifiers (eg. "America/Los_Angeles") be used.  The current workaround is to use the timezone configured on the target Google Calendar for all events.  Any suggestions or solutions would be most welcome!
 - ??? Open an issue if you find one (or better yet, fork and submit a pull request)
+
+## Disclaimers:
+I am in no way affiliated with Bernie Sanders or his campaign.  This is a project made by and for grassroots organization.
+
+## Shoutouts and recognition:
+- [Oregon for Bernie](http://oregonforbernie.com): The inspiration behind this project
+- [Bernie Sanders](https://berniesanders.com/): The man with the plan
+- [CodersForSanders](https://coders.forsanders.com/): Doing awesome projects with the common goal of supporting Bernie Sanders ([also on reddit](https://www.reddit.com/r/CodersForSanders/))
